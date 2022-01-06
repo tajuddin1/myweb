@@ -3,9 +3,10 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TAZ WEB | MY PROTFOLIO </title>
+    <link rel="Shoutcut icon" href="./images/Capture.png">
     <link rel="stylesheet" href="style.css" class="css">
     <link rel="stylesheet" href="responsive.css" class="css">
 </head>
@@ -17,13 +18,13 @@
                 <div class="barnd-logo">
                     <h1 class="logo">TAZ<span>WEB</span></h1>
                 </div>
-                <div class="nav-popup-menu">
+                <div class="nav-popup-menu" id="leftMenu">
                     <ul class="menu-item">
                         <li class="menu-list">
-                            <a id="active" class="menu-link" href="#">Home</a>
+                            <a id="active" class="menu-link" href="#home">Home</a>
                         </li>
                         <li class="menu-list">
-                            <a class="menu-link" href="#">About</a>
+                            <a class="menu-link" href="#about">About</a>
                         </li>
                         <li class="menu-list">
                             <a class="menu-link" href="#">Experiences</a>
@@ -38,13 +39,35 @@
                 </div>
                 <div class="barnd-nav">
                     <div class="nav-icon">
-                        <div id="nav-icon">
-                            <div></div>
-                            <div></div>
-                            <div></div>
+                        <div id="navIcon">
+                            <!-- <div class="line"></div> -->
                         </div>
                     </div>
                 </div>
+                <!-- <div class="side-menu-slide">
+                    <div class="sidemenu-wrapper">
+                        <div class="menu-closer"></div>
+                        <div class="side-menu">
+                            <ul class="side-menu-item">
+                                <li class="menu-list">
+                                    <a id="active" class="menu-link" href="#">Home</a>
+                                </li>
+                                <li class="menu-list">
+                                    <a class="menu-link" href="#">About</a>
+                                </li>
+                                <li class="menu-list">
+                                    <a class="menu-link" href="#">Experiences</a>
+                                </li>
+                                <li class="menu-list">
+                                    <a class="menu-link" href="#">Protfolio</a>
+                                </li>
+                                <li class="menu-list">
+                                    <a class="menu-link" href="#">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> -->
             </div>
         </div>
     </header>
@@ -66,8 +89,12 @@
             </div>
         </div>
     </section>
-    <section class="element-2">
+    <section class="element-2" id="about">
         <div class="container">
+            <div class="aboutHeading">
+                <h2 class="tittle">About Me</h2>
+                <div class="image"></div>
+            </div>
             <div class="element2wrapper">
                 <div class="left-content">
                     <div class="info-content">
