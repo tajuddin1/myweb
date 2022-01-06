@@ -3,6 +3,31 @@
         width: 95vw;
         margin: auto;
     }
+    .skill_heading{
+        background-image: url(./images/ffffff.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .backItem{
+        background-image: url(./images/Untitled-1-min.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 700px;
+        height: 400px;
+        position: absolute;
+        top: 250px;
+        z-index: -100;
+        right: auto;
+    }
+    .skill_heading {
+        width: 75%;
+    }
+
+    .skill_heading p {
+        font-size: 20px;
+    }
     .bottom-content {
         width: 100%;
         margin: auto;
@@ -13,7 +38,8 @@
     }
     .bottom-content p {
         padding: 0 20px;
-        margin-bottom: 50px;
+        /* margin-bottom: 50px; */
+        width: auto;
     }
     .more-us {
         margin: 0 20px;
@@ -26,6 +52,7 @@
         width: 200px;
         margin: auto;
         text-align: center;
+        padding: 0;
     }
     .left-content {
         width: 100%;
@@ -34,6 +61,10 @@
         width: 100%;
         padding-top: 60px;
     }
+
+.my-image {
+    display: none;
+}
     .element2wrapper {
         flex-direction: column;
         margin: auto;
@@ -44,16 +75,21 @@
     .text-content p {
         margin: 0;
         padding: 30px;
+        position: relative;
     }
     .home-content {
         width: 90%;
         margin: auto;
-        margin-top: 200px;
         height: auto;
     }
+
+.text-content {
+    padding-top: 70px;
+}
     .home-content h2 {
-        font-size: 5.2rem;
+        font-size: 3.2rem;
         padding-left: 20px;
+        margin-bottom: 335px;
     }
     img.home-image {
         height: 90vh;
@@ -106,8 +142,8 @@
         padding: 10px 0;
     }
     section#home{
-        height: 100vh;
-        /* top: 70px; */
+        height: 90vh;
+        top: 70px;
         padding-top: 100px;
         box-sizing: border-box;
         overflow: hidden;
@@ -128,6 +164,23 @@
         width: 95vw;
         margin: auto;
     }
+
+.skill_heading hr {
+    bottom: -107px;
+}
+
+.elememt3 {
+    padding-top: 100px;
+}
+
+.skill_heading p {
+    font-size: 18px;
+}
+
+.skill_heading {
+    width: 95%;
+    height: 204px;
+}
     .bottom-content {
         width: 100%;
         margin: auto;
@@ -139,6 +192,7 @@
     .bottom-content p {
         padding: 0 20px;
         margin-bottom: 50px;
+        width: auto;
     }
     .more-us {
         margin: 0 20px;
@@ -150,6 +204,7 @@
     .numbers {
         width: 200px;
         margin: auto;
+        padding: 0px;
         text-align: center;
     }
     .left-content {
@@ -159,6 +214,10 @@
         width: 100%;
         padding-top: 60px;
     }
+
+.my-image {
+    display: none;
+}
     .element2wrapper {
         flex-direction: column;
         margin: auto;
@@ -169,6 +228,8 @@
     .download-btn {
     margin: 20px 0;
     width: 100%;
+    padding: 15px 0;
+    text-align: center;
     }
     .text-content p {
         margin: 0;
@@ -180,11 +241,12 @@
         width: 90%;
         margin: auto;
         height: auto;
+        box-sizing: border-box;
     }
     .home-content h2 {
-        font-size: 4.2rem;
+        font-size: 2.2rem;
         padding-left: 15px;
-        margin-bottom: 15px;
+        margin-bottom: 200px;
     }
     img.home-image {
         display: none;
@@ -275,6 +337,24 @@
         bottom: 50px;
         border-top-right-radius: 20px;
         box-shadow: 3px -10px 0 #fff;
+    }
+    .skill_heading{
+        background-image: url(./images/ffffff.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .backItem{
+        background-image: url(./images/Untitled-1-min.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 400px;
+        height: 230px;
+        position: absolute;
+        top: 250px;
+        right: auto;
+        z-index: -100;
     }
 
 }
