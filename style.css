@@ -567,3 +567,88 @@ html{
 .bottom-content {
     width: 95%;
 }
+
+
+/* Protfolio Section */
+
+.protfolio_card {
+    width: 703px;
+    height: 668px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    box-shadow: 0 0 7px #939393;
+    /* background-image: url(./images/bg2.png); */
+    background-position: center;
+    background-size: cover;
+}
+
+.image_line {
+    width: 200px;
+    height: 200px;
+    background-image: url(./images/WhatsApp\ Image\ 2021-12-24\ at\ 7.24.10\ AM.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    border: 10px solid #fff;
+    box-shadow: 0 0 17px #cfcfcf;
+    margin-top: 5px;
+}
+.head_line {
+    width: 100%;
+    background: #895bdf;
+    height: 20px;
+}
+
+.icon_line span {
+    text-align: center;
+    font-size: 150px;
+    position: absolute;
+    line-height: 1;
+    color: #895bdf;
+    top: -20px;
+}
+
+.icon_line {
+    position: relative;
+    height: 100px;
+    width: 88px;
+}
+p.para_line_text {
+    font-size: 30px;
+    font-family: 'Poppins';
+    margin: 40px 52px 0;
+    text-align: center;
+}
+
+.name_line h3 {
+    padding: 5px;
+    margin: 15px 0 0;
+    font-size: 30px;
+    font-family: 'Raleway';
+}
+
+.text_line p {
+    font-family: 'Open Sans';
+    font-weight: 100;
+    font-size: 26px;
+    margin: 15px 0 0;
+}   
+.protfolio_item {
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.protfolio_item h1 {
+    margin: 80px 0;
+    text-align: center;
+    font-family: 'Raleway';
+    color: #885ade;
+    font-size: 45px;
+    text-shadow: -1px -1px 1px #727272;
+    top: -60px;
+}
