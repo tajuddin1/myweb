@@ -142,9 +142,10 @@ img.home-image {
 .home-content {
     display: flex;
     flex-direction: column;
-    width: 707px;
-    min-height: 689px;
+    width: 90%;
+    /* min-height: 689px; */
     /* margin: -740px auto 82px 97px; */
+    margin: auto;
 }
 
 .text-content h2 {
@@ -375,7 +376,8 @@ section#about {
     padding-top: 150px;
 }
 section#home {
-    padding-top: 150px;
+    padding-top: 180px;
+    height: 100vh;
 }
 .barnd-logo {
     margin-left: 20px;
@@ -546,12 +548,13 @@ html{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 900px;
-    height: 500px;
-    position: absolute;
-    top: 280px;
+    width: 800px;
+    height: 510px;
+    position: relative;
+    top: -490px;
     z-index: -100;
-    right: 15%;
+    right: 0;
+    margin-left: auto;
 }
 .my-image{
     background-image: url(./images/WhatsApp\ Image\ 2021-12-24\ at\ 7.24.10\ AM.jpeg);
@@ -573,7 +576,7 @@ html{
 
 .protfolio_card {
     width: 703px;
-    height: 668px;
+    height: 675px;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -651,4 +654,307 @@ p.para_line_text {
     font-size: 45px;
     text-shadow: -1px -1px 1px #727272;
     top: -60px;
+}
+/* .home-content {
+    width: 90%;
+    margin: auto;
+    height: auto;
+    box-sizing: border-box;
+    background-image: url(./images/Untitled-1-min.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 303px;
+    height: 197px;
+    margin-top: 200px;
+    margin-bottom: 300px;
+} */
+
+.text-content {
+    width: 710px;
+}
+
+
+.prtfolio_works {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+    margin-top: 50px;
+}
+
+.work_card {
+    object-fit: cover;
+    flex-basis: 30%;
+    width: 300px;
+    min-height: 325px;
+    background-position: center;
+    box-shadow: 0 0 7px #939393;
+    background-size: cover;
+    margin-bottom: 4.5%;
+}
+
+.work_card img {
+    width: 100%;
+}
+
+/* Contact */
+.contact_content_wrapper h2{
+    margin: 80px 0;
+    text-align: center;
+    font-family: 'Raleway';
+    color: #885ade;
+    font-size: 45px;
+    text-shadow: -1px -1px 1px #727272;
+    top: -60px;
+}
+
+
+
+
+
+
+#form input,
+textarea {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1120px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 18px;
+    border-style: none;
+    border-bottom: 1px solid #9466ea;
+    outline-color: #885ade;
+    /* outline: 2px solid; */
+    height: 60px;
+    color: #343434;
+    font-family: 'Open Sans';
+    background: white;
+    border-radius: 10px;
+}
+
+#from1 textarea {
+    border: none;
+    height: auto;
+    outline-color: #9466ea;
+    border-bottom: 1px solid #9466ea;
+}
+
+#from1 label {
+    width: 100%;
+    display: block;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    color: #75757e;
+    text-transform: capitalize;
+    line-height: 0;
+    letter-spacing: 0;
+    margin: 0;
+    font-weight: 500;
+}
+
+input#file {
+    border: none;
+    font-size: 20px;
+    /* padding: 10px 0; */
+}
+
+#from-btn {
+    display: inline-block;
+    font-size: 19px;
+    width: 100%;
+    height: 50px;
+    font-weight: 500;
+    display: flex;
+    background: #e1f3ff;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #885ade;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 0 14px #591fc5;
+}
+
+#from-btn:hover {
+    background: #ffffff;
+    box-shadow: none;
+    color: #885ade;
+}
+
+span#from-btn:hover {
+    background: #9466ea;
+}
+.from-submit {
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.alert {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    background: #00c300;
+    font-family: 'Open Sans';
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.alert strong,
+.close {
+    color: #fff;
+    padding: 0 10px;
+    font-size: 19px;
+}
+
+span.close:hover {
+    color: #000;
+}
+
+span.close {
+    font-weight: 900;
+    cursor: pointer;
+    transition: 0.5s ease;
+    font-size: 13px;
+}
+
+div#succescontent {
+    display: flex;
+    padding: 250px;
+    justify-content: center;
+}
+
+div#succescontent h1 {
+    font-size: 50px;
+    color: #00c300;
+}
+
+#submitResult {
+    display: none;
+    /* transition: 3s ease; */
+    background: #fff;
+    box-shadow: 0px 0px 1px 0px #00c300;
+}
+.footer-item a {
+    color: #b2b2b2;
+    padding-bottom: 5px;
+    text-decoration: none;
+}
+input::placeholder, textarea::placeholder {
+    color: #9466ea;
+}
+.contact_content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 167px;
+}
+
+.contact_from {
+    flex-basis: 48%;
+    /* padding: 40px; */
+}
+
+div#from1 {
+    display: flex;
+    padding: 50px;
+    background: #885ade;
+    border-radius: 20px;
+}
+
+form#form {
+    /* background: #fff; */
+    width: 100%;
+    border-radius: 20px;
+}
+form#form h3 {
+    font-size: 30px;
+    font-family: 'Open Sans';
+    color: #fff;
+    margin: 20px 0 50px;
+}
+
+.contact_card h6 {
+    font-size: 25px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    margin-bottom: 25px;
+    color: #ff7599;
+}
+
+.contact_card h3 {
+    font-size: 34px;
+    font-family: 'Raleway';
+    margin: 0px 0 50px;
+    color: #885ade;
+}
+
+.contact_card p {
+    font-size: 20px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    color: #885ade;
+}
+.contact_mass {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 50%;
+    margin-right: 50px;
+}
+
+.social h3 {
+    color: #885ade;
+    font-size: 28px;
+    font-family: 'Raleway';
+    margin-top: 40px;
+    padding-bottom: 30px;
+}
+.icon_wrapper {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+    background: #ffffff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    transition: 0.5s ease;
+    box-shadow: inset -2px -2px #885ade;
+}
+
+.social_icon {
+    display: flex;
+    align-items: center;
+}
+
+.icon_wrapper a {
+    color: #885ade;
+    margin: 0;
+    font-size: 24px;
+    padding: 15px;
+}
+.icon_wrapper:hover {
+    background: #885ade;
+    box-shadow: none;
+}
+.icon_wrapper:hover .icon_wrapper i{
+    color: #fff;
+}
+.icon_wrapper a:hover {
+    color: #fff;
+}
+section#contact {
+    padding-top: 100px;
 }

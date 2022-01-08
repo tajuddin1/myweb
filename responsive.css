@@ -3,6 +3,24 @@
         width: 95vw;
         margin: auto;
     }
+
+.protfolio_card {
+    width: 450px;
+}
+
+.image_line {
+    width: 150px;
+    height: 150px;
+}
+
+p.para_line_text {
+    font-size: 22px;
+}
+
+.work_card {
+    flex-basis: 48%;
+    margin-bottom: 4%;
+}
     .skill_heading{
         background-image: url(./images/ffffff.jpg);
         background-position: center;
@@ -14,27 +32,23 @@
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        width: 700px;
-        height: 400px;
-        position: absolute;
-        top: 250px;
+        width: 540px;
+        height: 350px;
+        position: relative;
+        top: -575px;
         z-index: -100;
-        right: auto;
-        right: 5%;
+        margin: auto;
     }
     .skill_heading {
         width: 580px;
         height: 350px;
     }
 
-.skills_content_wrapper {
-}
-
-.skill_heading hr {
-    bottom: -255px;
-    width: 80%;
-    margin: auto;
-}
+    .skill_heading hr {
+        bottom: -255px;
+        width: 80%;
+        margin: auto;
+    }
 
     .skill_heading p {
         font-size: 20px;
@@ -73,30 +87,44 @@
         padding-top: 60px;
     }
 
-.my-image {
-    display: none;
-}
+    .my-image {
+        display: none;
+    }
     .element2wrapper {
         flex-direction: column;
         margin: auto;
     }
     .download-btn {
-    margin: 20px 20px 0;
+    margin: 0px 20px 0;
     }
     .text-content p {
+        width: 60%;
         margin: 0;
         padding: 30px;
-        position: relative;
     }
     .home-content {
         width: 90%;
         margin: auto;
         height: auto;
     }
+    .home-content {
+        width: 90%;
+        margin: auto;
+        height: auto;
+        box-sizing: border-box;
+        /* background-image: url(./images/Untitled-1-min.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 460px;
+        height: 300px;
+        margin-top: 200px;
+        margin-bottom: 347px; */
+    }
 
-.text-content {
-    padding-top: 70px;
-}
+    .text-content {
+        margin-top: 80px;
+    }
     .home-content h2 {
         font-size: 3.2rem;
         padding-left: 20px;
@@ -157,12 +185,24 @@
         padding-top: 100px;
         box-sizing: border-box;
         overflow: hidden;
+        /* height: auto; */
     }
     .aboutHeading h2 {
         font-size: 30px;
     }
     .image{
         display: block;
+    }
+    div#from1 {
+        padding: 7%;
+    }
+    .contact_mass {
+        margin: 0;
+        padding: 5%;
+        margin-bottom: 90px;
+    }
+    .contact_content {
+        flex-direction: column;
     }
 }
 
@@ -175,23 +215,43 @@
         margin: auto;
     }
 
-.skill_heading hr {
-    bottom: -140px;
-    width: 90%;
+.contact_content {flex-direction: column;padding-bottom: 100px;}
+
+.contact_mass {
+    margin: 0;
+    padding: 5%;
+    margin-bottom: 90px;
 }
 
-.elememt3 {
-    padding-top: 100px;
+#form input {
+    height: 45px;
 }
 
-.skill_heading p {
-    font-size: 18px;
+#form textarea {
+    height: 160px;
 }
 
-.skill_heading {
-    width: 400px;
-    height: 235px;
+div#from1 {
+    padding: 7%;
 }
+
+    .skill_heading hr {
+        bottom: -140px;
+        width: 90%;
+    }
+
+    .elememt3 {
+        padding-top: 100px;
+    }
+
+    .skill_heading p {
+        font-size: 18px;
+    }
+
+    .skill_heading {
+        width: 400px;
+        height: 235px;
+    }
     .bottom-content {
         width: 100%;
         margin: auto;
@@ -226,8 +286,8 @@
         padding-top: 60px;
     }
 
-.my-image {
-    display: none;
+    .my-image {
+        display: none;
 }
     .element2wrapper {
         flex-direction: column;
@@ -245,14 +305,23 @@
     .text-content p {
         margin: 0;
         font-size: 15px;
-        padding: 30px 15px;
-        margin-bottom: 20px;
+        padding: 30px 15px 30px;
+        margin-bottom: 0px;
+        width: 100%;
     }
     .home-content {
         width: 90%;
         margin: auto;
         height: auto;
         box-sizing: border-box;
+        /* background-image: url(./images/Untitled-1-min.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 303px;
+        height: 197px;
+        margin-top: 200px;
+        margin-bottom: 300px; */
     }
     .home-content h2 {
         font-size: 2.6rem;
@@ -321,7 +390,8 @@
         font-size: 26px;
     }
     .text-content {
-        padding-top: 70px;
+        width: 100%;
+        margin-top: 30px;
     }
     .aboutHeading {
         margin: auto;
@@ -358,37 +428,53 @@
         background-repeat: no-repeat;
     }
 
-.protfolio_card {
-    width: 320px;
-}
+    .protfolio_card {
+        width: 335px;
+        height: 600px;
+    }
 
-.icon_line span {
-    font-size: 150px;
-}
+    .protfolio_item h1 {
+        margin: 30px 0 30px;
+    }
 
-.icon_line {
-    width: 65px;
-}
+    .icon_line span {
+        font-size: 150px;
+    }
 
-p.para_line_text {
-    font-size: 20px !important;
-    margin: 20px 30px 0 !important;
-}
+    .icon_line {
+        width: 65px;
+        height: 65px;
+    }
 
-.text_line p {
-    margin: 5px 0 0;
-}
+    p.para_line_text {
+        font-size: 20px !important;
+        margin: 20px 30px 0 !important;
+    }
+
+    .text_line p {
+        margin: 5px 0 0;
+    }
     .backItem{
         background-image: url(./images/Untitled-1-min.jpg);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        width: 400px;
+        width: 350px;
         height: 230px;
-        position: absolute;
-        top: 250px;
-        right: 5%;
+        position: relative;
+        top: -443px;
         z-index: -100;
+        margin: auto;
+        right: 0;
+    }
+    .work_card{
+        flex-basis: 48%;
+        min-height: 150px;
+        margin-bottom: 4%;
+    }
+
+    .prtfolio_works {
+        min-height: auto;
     }
 
 }
@@ -397,13 +483,24 @@ p.para_line_text {
         width: 300px;
     }
     .backItem{
-        right: auto;
-        width: 235px;
-        height: 150px;
-        top: 300px;
+        width: 310px;
+        height: 200px;
+        top: -400px;
+        margin: auto;
     }
+
+    .text-content p {
+        padding: 0;
+        padding-top: 45px;
+    }
+
 
     .home-content h2 {
         margin-bottom: 200px;
+        padding: 0;
+    }
+    .protfolio_item h1 {
+        margin: 20px 0 40px;
+        font-size: 35px;
     }
 }
