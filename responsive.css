@@ -215,7 +215,11 @@ p.para_line_text {
         margin: auto;
     }
 
-.contact_content {flex-direction: column;padding-bottom: 100px;}
+.contact_content {flex-direction: column;padding-bottom: 100px;margin-top: 75px;}
+
+.contact_content_wrapper h2 {
+    font-size: 35px;
+}
 
 .contact_mass {
     margin: 0;
